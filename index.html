@@ -1,22 +1,47 @@
-<div class="wrapper">
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 
-  
-  <div class="profile-card js-profile-card">
-    <div class="profile-card__img">
-      <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1537638518/Ba%C5%9Fl%C4%B1ks%C4%B1z-1.jpg" alt="profile card">
-    </div>
+html {
+  position: relative;
+  overflow-x: hidden!important;
+}
 
-    <div class="profile-card__cnt js-profile-cnt">
-      <div class="profile-card__name">Muhammed Erdem</div>
-      <div class="profile-card__txt">Front-end Developer from <strong>Mesopotamia</strong></div>
-      <div class="profile-card-loc">
-        <span class="profile-card-loc__icon">
-          <svg class="icon"><use xlink:href="#icon-location"></use></svg>
-        </span>
+* {
+  box-sizing: border-box;
+}
 
-        <span class="profile-card-loc__txt">
-          Istanbul, Turkey
-        </span>
-      </div>
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #324e63;
+}
 
-      <div class="profile-card-inf">
+a, a:hover {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.wrapper {
+  width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 50px 20px;
+  padding-top: 100px;
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 100px;
+  }
